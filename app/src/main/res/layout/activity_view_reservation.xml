@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssssss"
+    tools:context=".addFood">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbarMain"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- ImageView for the image -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menudo" />
+
+            <!-- TextView for the text content -->
+            <TextView
+                android:id="@+id/textViewContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Menudo \nPhp. 50.00" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mongo" />
+
+
+            <TextView
+                android:id="@+id/textViewContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:text="Monggo \nPhp. 40.00" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lumpia" />
+
+            <TextView
+                android:id="@+id/textViewContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:text="Lumpia \nPhp. 10.00" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/caldereta" />
+
+
+            <TextView
+                android:id="@+id/textViewContent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Lumpia \nPhp. 50.00" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/adobo" />
+
+
+            <TextView
+                android:id="@+id/textViewContent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Adobong Manok \nPhp. 50.00" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/hotdog" />
+
+
+            <TextView
+                android:id="@+id/textViewContent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Hotdog \nPhp. 10.00" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bbq" />
+
+
+            <TextView
+                android:id="@+id/textViewContent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Barbeque \nPhp. 10.00" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/porkribs" />
+
+
+            <TextView
+                android:id="@+id/textViewContent8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:text="Pork Ribs \nPhp. 40.00" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/friedchicken" />
+
+
+            <TextView
+                android:id="@+id/textViewContent9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Fried Chicken \nPhp. 20.00" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/chickencordon" />
+
+
+            <TextView
+                android:id="@+id/textViewContent10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:text="Pork Ribs \nPhp. 50.00" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

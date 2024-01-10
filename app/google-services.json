@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388407895886",
+    "project_id": "canteen-303bd",
+    "storage_bucket": "canteen-303bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388407895886:android:9324cd716c66bcc981601f",
+        "android_client_info": {
+          "package_name": "com.example.canteenmealreservationadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArwViDw1k4p2ffkCVVTvh3weck2iDb8Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

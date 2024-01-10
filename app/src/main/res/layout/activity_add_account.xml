@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/ss"
+        android:layout_height="match_parent"
+        tools:context=".addAccount">
+
+    <include
+        android:id="@+id/toolbarMain"
+        layout="@layout/toolbar"
+         />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add User Account"
+            android:textSize="40sp"
+            android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="60dp"
+            android:padding="15dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:hint="Email"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textColorHint="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textColorHint="@color/white"
+                android:id="@+id/password"
+                android:hint="Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="17dp"
+        android:text="Add Account" />
+
+
+</LinearLayout>
